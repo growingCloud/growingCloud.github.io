@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://growingcloud.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://growingcloud.github.io/" rel="alternate" type="text/html" /><updated>2021-12-23T10:49:41+09:00</updated><id>https://growingcloud.github.io/feed.xml</id><title type="html">I am A Newbie Programmer :)</title><subtitle>매일 공부하며 성장하는 신입 개발자 구름의 학습 일지입니다.</subtitle><entry><title type="html">두번째 테스트 게시글</title><link href="https://growingcloud.github.io/test-note2" rel="alternate" type="text/html" title="두번째 테스트 게시글" /><published>2021-12-22T08:47:00+09:00</published><updated>2021-12-22T08:47:00+09:00</updated><id>https://growingcloud.github.io/test-note2</id><content type="html" xml:base="https://growingcloud.github.io/test-note2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;아이디어 게시판 내 목차 실습입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./test-note1&quot;&gt;첫번째 테스트 게시글 : 테스트 노트 1번입니다.&lt;/a&gt;&lt;/li&gt;
+    &lt;!-- 목차에 리스트를 넣을때는 포스트의 있는 글의 제목 (날짜, 확장자 제외)만 가져와서 넣는다 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./test-note2&quot;&gt;두번째 테스트 게시글 : 테스트 노트 2번입니다.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
+두번째 포스트를 올리는 테스트 입니다.&lt;/p&gt;
+
+&lt;p&gt;이후 실습에서 목차를 보여주는 내용을 입력할 때 활용합니다.&lt;/p&gt;</content><author><name>growingCloud</name></author><category term="Idea Note" /><summary type="html">아이디어 게시판 내 목차 실습입니다. 첫번째 테스트 게시글 : 테스트 노트 1번입니다. 두번째 테스트 게시글 : 테스트 노트 2번입니다.</summary></entry><entry><title type="html">첫번째 테스트 게시글</title><link href="https://growingcloud.github.io/test-note1" rel="alternate" type="text/html" title="첫번째 테스트 게시글" /><published>2021-12-22T08:45:00+09:00</published><updated>2021-12-22T08:45:00+09:00</updated><id>https://growingcloud.github.io/test-note1</id><content type="html" xml:base="https://growingcloud.github.io/test-note1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;아이디어 게시판 내 목차 실습입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./test-note1&quot;&gt;첫번째 테스트 게시글 : 테스트 노트 1번입니다.&lt;/a&gt;&lt;/li&gt;
+    &lt;!-- 목차에 리스트를 넣을때는 포스트의 있는 글의 제목 (날짜, 확장자 제외)만 가져와서 넣는다 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./test-note2&quot;&gt;두번째 테스트 게시글 : 테스트 노트 2번입니다.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
+첫 포스트를 올리는 테스트 입니다.&lt;/p&gt;
+
+&lt;p&gt;layout tags의 입력 부분에는 _layout &amp;gt; tags.yml 에 입력한
+태그명을 넣어주어야 합니다.&lt;/p&gt;</content><author><name>growingCloud</name></author><category term="Idea Note" /><summary type="html">아이디어 게시판 내 목차 실습입니다. 첫번째 테스트 게시글 : 테스트 노트 1번입니다. 두번째 테스트 게시글 : 테스트 노트 2번입니다.</summary></entry></feed>
