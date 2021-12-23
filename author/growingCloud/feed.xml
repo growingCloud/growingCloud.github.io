@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://growingcloud.github.io/author/growingCloud/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://growingcloud.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-23T10:49:41+09:00</updated>
+  <updated>2021-12-23T15:31:54+09:00</updated>
   <id>https://growingcloud.github.io/author/growingCloud/feed.xml</id>
 
   
@@ -44,8 +44,9 @@
     &lt;li&gt;&lt;a href=&quot;./test-note2&quot;&gt;두번째 테스트 게시글 : 테스트 노트 2번입니다.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
-두번째 포스트를 올리는 테스트 입니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, &lt;br /&gt;
+두번째 포스트를 올리는 테스트 입니다.&lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;&lt;/p&gt;
 
 &lt;p&gt;이후 실습에서 목차를 보여주는 내용을 입력할 때 활용합니다.&lt;/p&gt;</content>
 
@@ -88,11 +89,20 @@
     &lt;li&gt;&lt;a href=&quot;./test-note2&quot;&gt;두번째 테스트 게시글 : 테스트 노트 2번입니다.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
+&lt;p&gt;&lt;br /&gt;
+Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
 첫 포스트를 올리는 테스트 입니다.&lt;/p&gt;
 
 &lt;p&gt;layout tags의 입력 부분에는 _layout &amp;gt; tags.yml 에 입력한
-태그명을 넣어주어야 합니다.&lt;/p&gt;</content>
+태그명을 넣어주어야 합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;	&lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
