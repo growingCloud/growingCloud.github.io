@@ -1,38 +1,405 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+---
+        layout: compress
+
+        # The Sitemap template
+        # v2.0
+        # https://github.com/cotes2020/jekyll-theme-chirpy
+        # © 2017-2019 Cotes Chung
+        # MIT License
+        ---
+
+        <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
+    
+
+    
+
     <url>
-        <loc>https://growingCloud.github.io/test-note2.html</loc>
-        
+        <loc>https://growingCloud.github.io//test-note2</loc>
         <lastmod>2021-12-22T08:47:00+09:00</lastmod>
-        
 
         
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         
 
         
         <priority>0.5</priority>
         
-
     </url>
     
+    
+    
+
+    
+
     <url>
-        <loc>https://growingCloud.github.io/test-note1.html</loc>
-        
+        <loc>https://growingCloud.github.io//test-note1</loc>
         <lastmod>2021-12-22T08:45:00+09:00</lastmod>
-        
 
         
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         
 
         
         <priority>0.5</priority>
         
-
     </url>
     
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//404.html</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//archive</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//atom.xml</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//author_archive</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//about/</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//search</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//sitemap.xml</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//tag/idea-note/feed.xml</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//tag/idea-note/</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//author/growingCloud/feed.xml</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//author/growingCloud/</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    <url>
+        <loc>https://growingCloud.github.io//feed.xml</loc>
+        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.3</priority>
+        
+    </url>
+
+    
+
 </urlset>
