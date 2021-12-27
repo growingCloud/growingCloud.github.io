@@ -17,6 +17,24 @@
     
 
     <url>
+        <loc>https://growingCloud.github.io//test-gist</loc>
+        <lastmod>2021-12-22T17:40:00+09:00</lastmod>
+
+        
+        <changefreq>monthly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+    </url>
+    
+    
+    
+
+    
+
+    <url>
         <loc>https://growingCloud.github.io//test-note2</loc>
         <lastmod>2021-12-22T08:47:00+09:00</lastmod>
 
@@ -65,7 +83,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//404.html</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -92,7 +110,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//archive</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -119,7 +137,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//atom.xml</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -146,7 +164,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//author_archive</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -173,7 +191,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -200,7 +218,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//about/</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -227,7 +245,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//search</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -254,7 +272,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//sitemap.xml</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -281,7 +299,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//tag/idea-note/feed.xml</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -308,7 +326,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//tag/idea-note/</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -335,7 +353,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//author/growingCloud/feed.xml</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -362,7 +380,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//author/growingCloud/</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>
@@ -389,7 +407,7 @@
 
     <url>
         <loc>https://growingCloud.github.io//feed.xml</loc>
-        <lastmod>2021-12-23T16:10:10+09:00</lastmod>
+        <lastmod>2021-12-23T19:33:47+09:00</lastmod>
 
         
         <changefreq>monthly</changefreq>

@@ -185,11 +185,20 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "test-gist": {
+        "title": "Gist 테스트 게시글",
+            "author": "growingCloud",
+            "category": "",
+            "content": "아이디어 게시판 내 목차 실습입니다.     첫번째 테스트 게시글 : 테스트 노트 1번입니다.        두번째 테스트 게시글 : 테스트 노트 2번입니다.    Gist 테스트 게시글 : Gist 테스트 게시글입니다GitHub의 코드 스니펫을 포함시키는 Gist 테스트 게시글입니다.&#39;&#39;&#39;별찍기, 중첩 반복문으로 푼다 (다 풀면 입력으로 바꿔보기)1. N x N 별찍기를 수행한다  //  2. 직각 삼각형*****    ******    *******    ********    *********    *****&#39;&#39;&#39;n = int(input(&quot;몇 줄 출력 ? &quot;))# 1. N x N 별찍기를 수행한다for i in range(1, 6) :        for j in range(1, 6) :        print(&quot;*&quot;, end =&quot;&quot; )    print()print()# 2. 직각 삼각형for i in range(1) :    for j in range(1, 6) :        print(&quot;*&quot; * j)print()# 3. 2번을 위아래 반전for i in range(n, 0, -1) :    for j in range(i) :        print(&quot;*&quot;, end =&quot;&quot; )    print()print()# 4. 2번을 좌우 반전count = 0for i in range(n - 1, 0, -1) :    count += 1    for j in range(i) :        print(&quot; &quot;, end =&quot;&quot; )    for j in range(count) :        print(&quot;*&quot;, end =&quot;&quot; )    print()print()# 5. 피라미드 for i in range(n) :    for j in range(n - 1 - i) :        print(end =&quot; &quot;)    for j in range(2 * i + 1) :        print(end =&quot;*&quot;)    print()print()# 6. 역 피라미드for i in range(n, 0, -1) :    for j in range(n - i) :        print(end =&quot; &quot;)    for j in range(2 * i - 1) :        print(end =&quot;*&quot;)    print()print()",
+        "url": "/test-gist"
+    }
+    ,
+    
     "test-note2": {
         "title": "두번째 테스트 게시글",
             "author": "growingCloud",
             "category": "",
-            "content": "아이디어 게시판 내 목차 실습입니다.     첫번째 테스트 게시글 : 테스트 노트 1번입니다.        두번째 테스트 게시글 : 테스트 노트 2번입니다.Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 두번째 포스트를 올리는 테스트 입니다.이후 실습에서 목차를 보여주는 내용을 입력할 때 활용합니다.",
+            "content": "아이디어 게시판 내 목차 실습입니다.     첫번째 테스트 게시글 : 테스트 노트 1번입니다.        두번째 테스트 게시글 : 테스트 노트 2번입니다.    Gist 테스트 게시글 : Gist 테스트 게시글입니다Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 두번째 포스트를 올리는 테스트 입니다.이후 실습에서 목차를 보여주는 내용을 입력할 때 활용합니다.",
         "url": "/test-note2"
     }
     ,
@@ -198,7 +207,7 @@ into the {body} of the default.hbs template -->
         "title": "첫번째 테스트 게시글",
             "author": "growingCloud",
             "category": "",
-            "content": "아이디어 게시판 내 목차 실습입니다.     첫번째 테스트 게시글 : 테스트 노트 1번입니다.        두번째 테스트 게시글 : 테스트 노트 2번입니다.Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 첫 포스트를 올리는 테스트 입니다.layout tags의 입력 부분에는 _layout &gt; tags.yml 에 입력한태그명을 넣어주어야 합니다.int total = 0;for(int i = 0; i &lt; list.length; i++){\ttotal += list[i];System.out.println( list[i] );}return total;",
+            "content": "아이디어 게시판 내 목차 실습입니다.     첫번째 테스트 게시글 : 테스트 노트 1번입니다.        두번째 테스트 게시글 : 테스트 노트 2번입니다.    Gist 테스트 게시글 : Gist 테스트 게시글입니다Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 첫 포스트를 올리는 테스트 입니다.layout tags의 입력 부분에는 _layout &gt; tags.yml 에 입력한태그명을 넣어주어야 합니다.int total = 0;for(int i = 0; i &lt; list.length; i++){\ttotal += list[i];System.out.println( list[i] );}return total;",
         "url": "/test-note1"
     }
     
