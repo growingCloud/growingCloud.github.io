@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://growingcloud.github.io/author/growingCloud/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://growingcloud.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-31T11:11:32+09:00</updated>
+  <updated>2022-01-01T03:23:56+09:00</updated>
   <id>https://growingcloud.github.io/author/growingCloud/feed.xml</id>
 
   
@@ -349,6 +349,298 @@ Jekyll 기반의 기술 블로그 개설을 실습하고 있으며,
 
       
         <summary type="html">아이디어 게시판 내 목차 실습입니다. 첫번째 테스트 게시글 : 테스트 노트 1번입니다. 두번째 테스트 게시글 : 테스트 노트 2번입니다. Gist 테스트 게시글 : Gist 테스트 게시글입니다</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">강의노트 2강, 표준 출력문과 이스케이프, 자료형</title>
+      <link href="https://growingcloud.github.io/python-02" rel="alternate" type="text/html" title="강의노트 2강, 표준 출력문과 이스케이프, 자료형" />
+      <published>2021-09-10T07:30:00+09:00</published>
+      <updated>2021-09-10T07:30:00+09:00</updated>
+      <id>https://growingcloud.github.io/python-02</id>
+      <content type="html" xml:base="https://growingcloud.github.io/python-02">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;파이썬 강의노트 목차 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!-- 목차에 리스트를 넣을때는 포스트의 있는 글의 제목 (날짜, 확장자 제외)만 가져와서 넣는다 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-01&quot;&gt;2021-09-08 강의노트 1강 : 개발환경의 개념 및 주석 입력&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-02&quot;&gt;2021-09-09 강의노트 2강 : 표준 출력문과 이스케이프, 자료형&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;오늘의 강의 키워드 : 표준 출력문, 따옴표의 구분, 이스케이프(\n), 주석, 자료형(type())&lt;/p&gt;
+
+&lt;h3&gt;1. 출력문 (1)&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1. Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2. 안녕 세상아!!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;3. 여기는 파이썬 수업중..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;표준 출력 : 사용자 (=개발자)가 입력한 내용을 화면에 출력하는 함수 (=기능)
+print(“문자열”) : 입력한 문자열을 화면에 출력하는 함수&lt;/p&gt;
+
+&lt;p&gt;Ctrl + shift + C는 코드 입력 창에서 누르면 터미널이 실행됨&lt;/p&gt;
+
+&lt;p&gt;파일 탭에서 자동저장 누르면 자동저장 되니까 항상 체크 해 둘것!
+★ 코드는 항상 위에서 아래로 순차적으로 실행된다, (주석은 실행되지 않음)&lt;/p&gt;
+
+&lt;h3&gt;1. 출력문 (2)&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;여기는 큰따옴표&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'여기는 작은따옴표'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# print()은 마지막에 줄바꿈이 내포되어 있으므로 줄바꿈으로 활용 가능
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;저희 파이썬은 '3.9버전' 입니다&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# print(&quot;저희 파이썬은 &quot;3.9버전&quot; 입니다&quot;)
+# 빨간 표시가 되면서 터미널 실행 결과를 보면 꺾쇠로 표시가 됨
+# (정확하진 않으나 이쯤에서 오류가 있다는 걸 표시)
+# 따옴표는 먼저 발견되는 것까지 묶임, 따옴표를 구분해서 사용해주면 해결할 수 있음
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'저희 파이썬은 &quot;3.9버전&quot; 입니다'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;파이썬은 &quot;3.9&quot;버전, 개발도구는 'VS code' 입니다&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'''파이썬은 &quot;3.9&quot;버전, 개발도구는 'VS code' 입니다'''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;print()문은 “문자열”을 출력한다 &amp;gt; 문자열 : 단어나 문장을 표현하기 위한 데이터
+문자열은 ‘‘(작은따옴표)나 ““(큰따옴표)로 묶어서 표현됨&lt;/p&gt;
+
+&lt;p&gt;문자열 안에 두 종류의 따옴표를 쓰고 싶을때는 3개짜리로 구분하여 사용할 수 있음
+‘ ‘나 “ “ 을 문자열 내에서 같이 사용하려면 세개짜리 따옴표를 사용하면 됨!&lt;/p&gt;
+
+&lt;h3&gt;1. 출력문 (3)&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+여기는 여러줄을 걸쳐서
+문자열로 인식합니다
+사용자가 작성한 그대로 출력이 됩니다.
+&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# print(&quot;그냥 따옴표는
+# 여러줄이 안됩니다!!&quot;) &amp;gt;&amp;gt; 주석 해제하면 오류 뜸
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;사실 3개짜리 따옴표는 여러줄 문자열을 작성하기 위해서 사용하는 것임 (파이썬의 특권!)
+블록단위 문자열이라고도 함&lt;/p&gt;
+
+&lt;h3&gt;2. 출력 연습&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 아래 주석으로 작성 해 놓은 내용을 출력으로 띄워놓기
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'''
+이름 : 구름 (30세, 167.8cm)
+주소 : 프로그래밍시 코딩동 파이썬 아파트
+취미 : Python 코딩 연습
+'''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;3. 이스케이프&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                    &lt;span class=&quot;c1&quot;&gt;# \n : new line, 줄바꿈으로 사용 됨
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;저희 수업은 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Python 입니다&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# 문자열 내에서 이스케이프는 여러개 사용 가능
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;여기는 엄청 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; 띄워집니다!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;# \t : tab, 들여쓰기
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# (참고)고정폭 폰트 : 일정한 간격으로 띄어쓰기를 똑 떨어지게 해줌
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;저희 파이썬 버전은 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; 입니다&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# \&quot; : 문자열 묶는 기능을 제거
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;공유폴더 : &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\\\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;192.168.0.79&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;escape : 탈출하다 벗어나다
+escape sequence : 이스케이프 문자. ‘문자열 내’에서 특수한 형태로 사용되는 문자들이며, 항상 \ (백슬래시)와 결합하여 사용됨&lt;/p&gt;
+
+&lt;p&gt;\ 는 뒤에 나오는 걸 이스케이프 처리 해 줘서 \ 입력하면 하나만 나옴
+\ : 이스케이프 기능을 제거
+즉, 이스케이프 없는 애들에게는 기능을 주고, 기능이 있는 애들에게는 빼앗아 온다!&lt;/p&gt;
+
+&lt;h3&gt;4. 주석&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 주석 : 코드로 해석되지 않는 부분
+# 기호 뒤 브타 힌즐 끝까지 적용, 중간에 끊을 수 없음
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;여기는 출력&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#print(&quot;여기는 출력 안됨&quot;)
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 여러 줄을 주석 처리하는 방법 없나? &amp;gt;&amp;gt; 없다
+# 드래그 후 여러줄 주석 처리 shift + / (VS code 전용 단축키)
+# 단, 유사하게 사용가능한 방법이 있다 &amp;gt; 문자열로 처리하는 방법
+&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+여기는 출력이 됩니다
+여러 줄을 문자열로 처리하는 구문입니다.
+하지만 print()로 출력하지 않으면 아무런 동작을 하지 않습니다.
+즉, 주석 '처럼' 사용할 수 있습니다! (주석은 아님, 문자열임!!!!!)
+&quot;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#문자열로 인식은 되지만 출력은 되지 않음, 이 문자열을 다시 print()로 묶어주면 출력이 됨!
+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'한 줄 문자열도 똑같이 적용된다! 에러도 안 뜸, 따옴표 없으면 함수로 인식하기 때문에 오류 발생'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;5. 자료형 (1)&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;10&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 따옴표 있음 &amp;gt;&amp;gt; 문자열
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 따옴표 없음 &amp;gt;&amp;gt; 정수
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 따옴표 없음, 소수점 있음 &amp;gt;&amp;gt; 실수
+# 대수학에서는 정수는 실수에 포함되지만, 컴퓨터는 그렇지 않음!
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#타입을 확인하는 키워드 type()
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;10&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# &amp;gt;&amp;gt; &amp;lt;class 'str'&amp;gt; : string (문자열)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# &amp;gt;&amp;gt; &amp;lt;class 'int'&amp;gt; : intiger (정수)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# &amp;gt;&amp;gt; &amp;lt;class 'float'&amp;gt; : (실수) 소수점이 둥둥 떠다닌다!
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 연산을 시켜보자
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;10&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;20&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 문자열 + 문자열 = 단순한 이어붙이기
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;# 정수 + 정수 = 실제 연산이 이루어짐
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;20.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 실수도 마찬가지로 연산이 이루어짐
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;자료형 : 데이터 타입. 코드 내 식별되는 데이터의 종류를 의미&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;문자열 : 단어나 문장을 표현하기 위한 데이터, 따옴표 (‘,”)로 묶임&lt;/li&gt;
+  &lt;li&gt;정수 : 연산을 위한 데이터. 따옴표로 묶이지 않은 숫자 데이터&lt;/li&gt;
+  &lt;li&gt;실수 : 숫자 중에서 소수점(.)이 포함 된 숫자&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;5. 자료형 (2)&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 연산을 시켜보자
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;10&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;20&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 문자열 + 문자열 = 단순한 이어붙이기
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;# 정수 + 정수 = 실제 연산이 이루어짐
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;20.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 실수도 마찬가지로 연산이 이루어짐
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 다른 타입간의 연산은?
+# print(&quot;10&quot; + 20)  오류 발생, 문자열과 '다른 타입' 간에는 연산 불가능
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;자동 형변환, 실제로는 연산 불가능하다! &amp;gt; 연산 과정이 어떻게 되는가?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;원래는 타입이 달라서 불가 &amp;gt; 같은 타입이면 된다고 인식&lt;/li&gt;
+  &lt;li&gt;10 + 3.14 » 10.0 + 3.14 로 정수를 실수로 변환시켜버림 » 연산 가능&lt;/li&gt;
+  &lt;li&gt;연산이 이루어짐 13.14  » 이를 ‘자동 형변환’이라고 함!!&lt;/li&gt;
+  &lt;li&gt;정수에서 실수로 변환이 이루어 지는 것은 더 넓은 데이터 타입으로 변환되는 규칙이 있음&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>growingCloud</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Lecture Note" />
+      
+
+      
+        <summary type="html">파이썬 강의노트 목차 2021-09-08 강의노트 1강 : 개발환경의 개념 및 주석 입력 2021-09-09 강의노트 2강 : 표준 출력문과 이스케이프, 자료형</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">강의노트 1강, 개발환경의 개념 및 주석 입력</title>
+      <link href="https://growingcloud.github.io/python-01" rel="alternate" type="text/html" title="강의노트 1강, 개발환경의 개념 및 주석 입력" />
+      <published>2021-09-09T07:30:00+09:00</published>
+      <updated>2021-09-09T07:30:00+09:00</updated>
+      <id>https://growingcloud.github.io/python-01</id>
+      <content type="html" xml:base="https://growingcloud.github.io/python-01">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;파이썬 강의노트 목차 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!-- 목차에 리스트를 넣을때는 포스트의 있는 글의 제목 (날짜, 확장자 제외)만 가져와서 넣는다 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-01&quot;&gt;2021-09-08 강의노트 1강 : 개발환경의 개념 및 주석 입력&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-02&quot;&gt;2021-09-09 강의노트 2강 : 표준 출력문과 이스케이프, 자료형&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;1. 주석&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# ctrl + / : 선택한 만큼 주석 처리
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# window + e : 탐색기
+# window + r : 실행창
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# -&amp;gt; cmd -&amp;gt; appwiz.cpl
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# ※ cmd 명령
+# dir : 현재 위치 파일 및 폴더 출력
+# cls : 화면지우기
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# vscode에서 python 코드 실행
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 1. ctrl + F5
+# 2. py  파일명.py
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# ※ tab키는 자동완성이다
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 2-1. ctrl + j : vscode 내부 터미널창
+# 2-2. ctrl + shift + c : 윈도우 터미널
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;2. Test.py&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;안녕 세상아!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 그냥 쓰면 에러남!!
+# 샵 붙이면 주석 달기, 주석은 코드로 해석되지 않음!
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;(내가 이해한 것 : 처음에 VS를 써서 그렇지 파이썬도 언어이기 때문에 cmd로 실행하면
+코딩 입력 화면과 결과 출력이 동시에 나오는 것이 당연함!)&lt;/p&gt;
+
+&lt;p&gt;IDLE에서는 cmd로 실행한 것과 다르게 (Integrated DeveLopment Environment,
+통합 개발 환경) 코딩 화면에 색이 표시된다&lt;/p&gt;
+
+&lt;p&gt;3번으로 하면 대화형이기 때문에 연속으로 두줄의 코드를 실행할 수 없음, 그래서 에디터를 열어서 (new file) 두줄 이상의 코드를 순차적으로 실행함 &amp;gt; 내가 구성한 로직대로, 순차적으로 실행함&lt;/p&gt;
+
+&lt;p&gt;파일 확장명은 보이도록 체크 해 놓는것이 좋음!!!&lt;/p&gt;
+
+&lt;p&gt;편집기 공통사항 : 파일 이름위에 별표가 붙어있으면 저장이 안되어있다는 의미! 저장해주자 !&lt;/p&gt;
+
+&lt;p&gt;VS Code는 개발환경은 아님, 코드 편집기임 (실행 능력은 없고 코드 편집과 확장기능을 활용할 수 있도록 도와줌)&lt;/p&gt;
+
+&lt;p&gt;프로그래밍 : 프로그램을 만드는 것&lt;/p&gt;
+
+&lt;p&gt;프로그램 : 명령어의 집합! 컴퓨터에게 명령을 내리는 일을 모아둔 것 » 컴퓨터에게 일을 시키기 위해 만든 것 (컴퓨터는 프로그램 없으면 단순 연산만 하는 멍청이임…)&lt;/p&gt;
+
+&lt;p&gt;코딩 : 프로그래밍과 유사하지만, 컴퓨터 코드를 작성하는 것을 코딩이라고 함&lt;/p&gt;
+
+&lt;p&gt;이렇게 나누어 져 있는 이유는 프로그래밍이 더 넓은 범위이기 때문! (프로그램을 만드는 데에는 코딩 뿐만 아니라 프로젝트 수립, 코딩, 디자인, 업데이트/유지보수 등 복합적인 과정이 들어감!)&lt;/p&gt;
+
+&lt;p&gt;운영체제는 어플과 하드웨어를 연결시켜주는 중간다리 역할을 함!  OS 는 운영 소프트웨어, 앱은 응용 소프트웨어라고 함&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>growingCloud</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Lecture Note" />
+      
+
+      
+        <summary type="html">파이썬 강의노트 목차 2021-09-08 강의노트 1강 : 개발환경의 개념 및 주석 입력 2021-09-09 강의노트 2강 : 표준 출력문과 이스케이프, 자료형</summary>
       
 
       
