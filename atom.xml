@@ -8,6 +8,54 @@
     
       
       <item>
+        <title>첫번째 테스트 게시글</title>
+        
+          <description>&lt;p&gt;&lt;br /&gt;
+Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
+각 게시판 별 태그 연결이 잘 되었는지를 확인하기 위한 게시글 입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 30 Dec 2021 10:22:00 +0900</pubDate>
+        <link>
+        https://growingCloud.github.io/test-note</link>
+        <guid isPermaLink="true">https://growingCloud.github.io/test-note</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>첫번째 테스트 게시글</title>
+        
+          <description>&lt;p&gt;&lt;br /&gt;
+Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
+각 게시판 별 태그 연결이 잘 되었는지를 확인하기 위한 게시글 입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 30 Dec 2021 10:21:00 +0900</pubDate>
+        <link>
+        https://growingCloud.github.io/test-note</link>
+        <guid isPermaLink="true">https://growingCloud.github.io/test-note</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>첫번째 테스트 게시글</title>
+        
+          <description>&lt;p&gt;&lt;br /&gt;
+Jekyll 기반의 기술 블로그 개설을 실습하고 있으며, 
+각 게시판 별 태그 연결이 잘 되었는지를 확인하기 위한 게시글 입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 30 Dec 2021 10:15:00 +0900</pubDate>
+        <link>
+        https://growingCloud.github.io/test-note</link>
+        <guid isPermaLink="true">https://growingCloud.github.io/test-note</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Gist 테스트 게시글</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;아이디어 게시판 내 목차 실습입니다. &lt;/span&gt;&lt;/p&gt;
